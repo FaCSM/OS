@@ -1,0 +1,231 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/VS/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/VS/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/VS/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/VS/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+      Сборка начата 30.03.2024 5:06:08.
+      
+      Проект "C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\3.27.2-msvc1\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\VS\\vs\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\VS\\vs\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\3.27.2-msvc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\VS\\vs\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\3.27.2-msvc1\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:02.15
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/sasa6/OneDrive/Документы/помойка/OS/2/build/CMakeFiles/3.27.2-msvc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/VS/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/VS/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/VS/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+      Сборка начата 30.03.2024 5:06:10.
+      
+      Проект "C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\3.27.2-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\VS\\vs\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\VS\\vs\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\3.27.2-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\VS\\vs\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\3.27.2-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.97
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/sasa6/OneDrive/Документы/помойка/OS/2/build/CMakeFiles/3.27.2-msvc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/VS/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/VS/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/sasa6/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/\u043f\u043e\u043c\u043e\u0439\u043a\u0430/OS/2/build/CMakeFiles/CMakeScratch/TryCompile-tz8ypa"
+      binary: "C:/Users/sasa6/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/\u043f\u043e\u043c\u043e\u0439\u043a\u0430/OS/2/build/CMakeFiles/CMakeScratch/TryCompile-tz8ypa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sasa6/OneDrive/Документы/помойка/OS/2/build/CMakeFiles/CMakeScratch/TryCompile-tz8ypa'
+        
+        Run Build Command(s): D:/VS/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_04414.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 30.03.2024 5:06:13.
+        
+        Проект "C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tz8ypa\\cmTC_04414.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_04414.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tz8ypa\\Debug\\".
+          Создание каталога "cmTC_04414.dir\\Debug\\cmTC_04414.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_04414.dir\\Debug\\cmTC_04414.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_04414.dir\\Debug\\cmTC_04414.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\VS\\vs\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04414.dir\\Debug\\\\" /Fd"cmTC_04414.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\VS\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x86
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04414.dir\\Debug\\\\" /Fd"cmTC_04414.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "D:\\VS\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\VS\\vs\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tz8ypa\\Debug\\cmTC_04414.exe" /INCREMENTAL /ILK:"cmTC_04414.dir\\Debug\\cmTC_04414.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sasa6/OneDrive/Документы/помойка/OS/2/build/CMakeFiles/CMakeScratch/TryCompile-tz8ypa/Debug/cmTC_04414.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sasa6/OneDrive/Документы/помойка/OS/2/build/CMakeFiles/CMakeScratch/TryCompile-tz8ypa/Debug/cmTC_04414.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_04414.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_04414.vcxproj -> C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tz8ypa\\Debug\\cmTC_04414.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_04414.dir\\Debug\\cmTC_04414.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_04414.dir\\Debug\\cmTC_04414.tlog\\cmTC_04414.lastbuildstate".
+        Сборка проекта "C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tz8ypa\\cmTC_04414.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.28
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/VS/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/VS/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/sasa6/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/\u043f\u043e\u043c\u043e\u0439\u043a\u0430/OS/2/build/CMakeFiles/CMakeScratch/TryCompile-22e400"
+      binary: "C:/Users/sasa6/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/\u043f\u043e\u043c\u043e\u0439\u043a\u0430/OS/2/build/CMakeFiles/CMakeScratch/TryCompile-22e400"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/sasa6/OneDrive/Документы/помойка/OS/2/build/CMakeFiles/CMakeScratch/TryCompile-22e400'
+        
+        Run Build Command(s): D:/VS/vs/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2079d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 30.03.2024 5:06:18.
+        
+        Проект "C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22e400\\cmTC_2079d.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_2079d.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22e400\\Debug\\".
+          Создание каталога "cmTC_2079d.dir\\Debug\\cmTC_2079d.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_2079d.dir\\Debug\\cmTC_2079d.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_2079d.dir\\Debug\\cmTC_2079d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\VS\\vs\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2079d.dir\\Debug\\\\" /Fd"cmTC_2079d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "D:\\VS\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x86
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2079d.dir\\Debug\\\\" /Fd"cmTC_2079d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "D:\\VS\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\VS\\vs\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22e400\\Debug\\cmTC_2079d.exe" /INCREMENTAL /ILK:"cmTC_2079d.dir\\Debug\\cmTC_2079d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/sasa6/OneDrive/Документы/помойка/OS/2/build/CMakeFiles/CMakeScratch/TryCompile-22e400/Debug/cmTC_2079d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sasa6/OneDrive/Документы/помойка/OS/2/build/CMakeFiles/CMakeScratch/TryCompile-22e400/Debug/cmTC_2079d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_2079d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2079d.vcxproj -> C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22e400\\Debug\\cmTC_2079d.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_2079d.dir\\Debug\\cmTC_2079d.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_2079d.dir\\Debug\\cmTC_2079d.tlog\\cmTC_2079d.lastbuildstate".
+        Сборка проекта "C:\\Users\\sasa6\\OneDrive\\Документы\\помойка\\OS\\2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-22e400\\cmTC_2079d.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.99
+        
+      exitCode: 0
+...
